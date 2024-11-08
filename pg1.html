@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Kurt</title>
+<style>
+    
+        .background
+    {
+        position: fixed;       /* make it absolute if you wanna see the 2 bg  */    /* position=fixed then see*/
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+           z-index: 1;/* below content  */
+           background-image: url('Nirvana_Cuffaro6.webp');
+        
+         filter: blur(5px);
+         background-position: center;
+         background-size: cover;
+         background-attachment: fixed;
+         
+         
+     }
+     
+     .title{
+        font-size: large;
+        
+     }
+    .content
+    {
+         position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 2;         /* the zindex is like layering like a stack more the number of zindex the more priority or more top it will be*/
+        background: rgba(0, 0, 0, 0.5);
+        color: antiquewhite;
+        padding: 20px;
+        background-attachment: local;
+       
+    }
+    .image1{
+        border: solid whitesmoke;
+        margin: 10px 0;
+        transition: transform 0.2s;
+    }
+    .image1:hover{
+        transform: scale(1.05s);
+    }
+    
+   
+    .title{
+        font-size: large;
+    }
+
+    /* the second background needs to be below the first one as css 
+    .secondbackground{
+        background-image: url('ycjTSwW-nirvana-wallpapers.jpg');
+        position: absolute; /* make it absolute if you wanna see the 2 bg  
+        background-position: center;
+        background-size: cover;
+        filter: blur(5px);
+        top: 100%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+       
+        background-attachment: fixed;
+        /* remove this     
+     }
+  
+    */
+</style>
+</head>
+   
+<body >
+    
+    <div class="background"></div> 
+    <div class="secondbackground"></div>
+    <div class="content">
+    <main class="title"><b><center><h1><u>THE MAN WHO SOLD THE WORLD: COBAIN</u></h1></center></b></main>
+    <h2 class="intro"><u>Introduction:</u></h2>
+    <p class="p1">Kurt Donald Cobain (February 20, 1967 – c. April 5, 1994) was an American musician. He was the lead vocalist, guitarist, primary songwriter, and a founding member of the grunge band Nirvana. Through his angsty songwriting and anti-establishment persona, his compositions widened the thematic conventions of mainstream rock music.</p>
+    <br>
+    <img src="images.jpeg" width=150px height= 200px class="image1">
+    <h2 class="intro"><u>Nirvana:</u></h2>
+    <p class="p1">In February 1993, Nirvana released "Puss" / "Oh, the Guilt", a split single with the Jesus Lizard, on the independent label Touch & Go.[63] For their third album, Nirvana chose producer Steve Albini, who had a reputation as principled and opinionated in the American indie music scene. </p>
+    <img src="Dave_Grohl_1989.jpg" width=300px height=200px class="image1">
+    
+    <h2 class="intro"><u>Conclusion:</u></h2>
+    <p class="p1">Cobain's death drew international attention and became a topic of public fascination and debate.[83] Within hours, stocks ran low of Nirvana records in stores,[84] and Nirvana sales rose dramatically in the United Kingdom.[85] Unused tickets for Nirvana concerts sold for inflated prices on the used market. </p>
+    
+    <img src="Nirvana 1993 Live and Loud.jpeg" width=400px height= 285px class="image1"> 
+
+
+</div></body>
+</html>
